@@ -54,16 +54,18 @@ main h1{
 
 .user_container:hover,.user_container:focus-within{
     border: 0.1px solid orange;
+    box-sizing: border-box;
 }
 
-.forget{
-    font-size: 0.8rem;
+.forget_line{
     margin: 5px 0 10px 0;
     display: flex;
     position: relative;
     left: 3%;
+}
 
-    width: 54%;
+.forget{
+    font-size: 0.8rem;
     
     text-decoration: none;
     color: burlywood;
