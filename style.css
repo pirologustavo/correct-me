@@ -40,37 +40,55 @@ main h1{
 .user_container{
     position: relative;
     margin-top: 10px;
+    width: 100%;
+    background-color: white;
+
+    border-radius: 8px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: text;
+}
+
+.user_container:hover,.user_container:focus-within{
+    border: 0.1px solid orange;
 }
 
 .forget{
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 5px 0 10px 0;
     display: flex;
     position: relative;
-    left: 5%;
+    left: 3%;
+
+    width: 54%;
+    
+    text-decoration: none;
+    color: burlywood;
 }
 
-.input_login{
+.forget:hover{
+    color: orange;
+}
+
+#input_login, #input_password{
+    background: none;
+    outline: none;
     height: 30px;
-    width: 90%;
+    width: 80%;
     border: none;
-    border-radius: 10px;
+
+    position: relative;
+    right: 8%;
 
     padding-left: 5px;
 }
 
-.input_login:hover{
-    border: 0.1px solid orange;
-}
-
-
 .icon{
     position: absolute;
-    right: 8%;
+    right: 5%;
     width: 15px;
 }
 
@@ -103,5 +121,10 @@ main h1{
     color: white;
 
     font-size: 1rem;
+}
+
+.register a{
+    text-decoration: none;
+    color: orange;
 }
 
