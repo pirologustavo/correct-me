@@ -64,7 +64,7 @@ main h1{
 }
 
 .input_login:hover{
-    border: 1px solid orange;
+    border: 0.1px solid orange;
 }
 
 
@@ -93,8 +93,7 @@ main h1{
     background-color: orange;
     color: white;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
-    width: 42%;
-    height: 32px;
+    transform: scale(1.05);
     transition: 0.1ms;
     cursor: pointer;
 }
