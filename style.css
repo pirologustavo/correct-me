@@ -3,15 +3,19 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: 62,5%;
 }
 
 body{
     background-image: url(img/bela-foto-aerea-de-uma-praia-com-colinas-ao-fundo-ao-por-do-sol.jpg);
     background-size: cover;
+
+    font-size: 1.2rem;
 }
 
 main{
-    width: 20vw;
+    padding: 0 30px 0 30px;
     background-color: rgba(128, 128, 128, 0.5);
     display: flex;
     align-items: center;
@@ -43,25 +47,30 @@ main h1{
 }
 
 .forget{
+    font-size: 1rem;
     margin: 5px 0 10px 0;
     display: flex;
     position: relative;
-    left: 19%;
+    left: 5%;
 }
 
 .input_login{
     height: 30px;
-    width: 60%;
+    width: 90%;
     border: none;
     border-radius: 10px;
 
     padding-left: 5px;
 }
 
+.input_login:hover{
+    border: 1px solid orange;
+}
+
 
 .icon{
     position: absolute;
-    right: 22%;
+    right: 8%;
     width: 15px;
 }
 
@@ -80,8 +89,20 @@ main h1{
     text-align: center;
 }
 
+.btn:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+    width: 42%;
+    height: 32px;
+    transition: 0.1ms;
+    cursor: pointer;
+}
+
 .register{
     margin-bottom: 40px;
     color: white;
+
+    font-size: 1rem;
 }
 
